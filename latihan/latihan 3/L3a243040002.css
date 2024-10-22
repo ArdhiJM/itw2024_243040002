@@ -18,3 +18,7 @@ h4 {
 p {
    text-align: justify;
 }
+
+.a1 {
+   font-variant: small-caps;
+}
