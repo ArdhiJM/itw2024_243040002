@@ -37,12 +37,13 @@ h4 {
 }
 
 .a2 {
+   color: blue;
    font-weight: bold;
    text-decoration: none;
 }
 
 .a2:hover {
-   color: wheat;
+   color: gray;
    text-decoration: none;
 }
 
