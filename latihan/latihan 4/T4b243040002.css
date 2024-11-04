@@ -1,0 +1,183 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* style */
+
+body {
+   font: 16px/28px arial, sans-serif;
+   background-color: #eaeaea;
+   background-image: url(image/moroccan-flower.png);
+   color: #333;
+}
+
+.container {
+   width: 800px;
+   margin: auto;
+   background-color: #fff;
+}
+
+.header {
+   padding: 20px;
+   padding-bottom: 5px;
+} 
+
+.header .judul {
+   font-size: 40px;
+   font-weight: bold
+}
+
+ /* NAVIGASI */
+.container-navbar ul li {
+   display: inline-block;
+}
+
+.li-navbar {
+   padding: 10px;
+   color: salmon;
+   font-size: 15px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+.li-navbar:hover {
+   background-color: lightskyblue;
+   border-radius: 5px;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   -ms-border-radius: 5px;
+   -o-border-radius: 5px;
+}
+
+.a-navbar {
+   color: salmon;
+   text-decoration: none;
+   font-weight: 80px;
+}
+/* NAVIGASI END */
+
+/* CONTENT */
+.content1 {
+   padding: 20px;
+}
+
+.content1 h2 {
+
+   font-size: 25px;
+   font-weight: bold;
+}
+
+.content1 p a {
+   text-decoration: none;
+}
+
+.content1 .penulis {
+   font-size: 13px;
+}
+
+.content1 .penulis a {
+   color: salmon;
+}
+
+.hero {
+   height: 500px;
+   background-image: url(image/prabowo.jpg);
+   background-position: -80px -200px;
+   border-top: 5px solid salmon;
+   border-bottom: 5px solid salmon;
+}
+
+.fig-caption {
+   padding: 20px;
+   font-size: 13px;
+   color: #A9A9A9;
+   border-bottom: 15px;
+}
+
+.content2 {
+   font-size: 20px;
+}
+
+.content2 p {
+   padding: 20px;
+}
+
+.img {
+   height: 300px;
+   background-image: url(image/bu\ sri\ mulyani.jpeg);
+   background-position: 0 -168px;
+   border-top: 5px solid skyblue;
+   border-bottom: 5px solid skyblue;
+}
+
+.isi {
+   margin-top: 20px;
+   padding: 20px;
+   font-size: 20px;
+}
+/* CONTENT END */
+
+/* FOOTER */
+.footer {
+   padding: 10px;
+   background-color: #1b1919;
+   color: #fff;
+}
+
+.footer .social-icon a {
+   color: white;
+   margin-left: 10px;
+}
+
+.copyright {
+   text-align: center;
+   font-size: 14px;
+
+}
+/* FOOTER END */
