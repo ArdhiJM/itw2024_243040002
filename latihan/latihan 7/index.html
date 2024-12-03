@@ -18,16 +18,22 @@
             <p class="sub-heading">Helmet & Apparel Riding</p>
          </div>
          <div class="features feature-1">
-            <h4 class="price">IDR 350K</h4>
+            <h4 class="price">IDR 280K</h4>
             <p class="item"><span>Weistbag</span></p>
          </div>
          <div class="features feature-2">
-            <h4 class="price">IDR 280K</h4>
+            <h4 class="price">IDR 350K</h4>
             <p class="item">Hoodie</p>
          </div>
       </header>
 
       <nav class="menu">
+         <div class="menu-toggle">
+            <input type="checkbox">
+            <span></span>
+            <span></span>
+            <span></span>
+         </div>
          <div class="brand">
             <h1>DOT STORE</h1>
          </div>
@@ -38,6 +44,36 @@
             <li><a href="">Gallery</a></li>
          </ul> 
       </nav>
+
+      <section class="services">
+         <div class="service">
+            <div class="icon">🧽</div>
+            <h3>Wash The Helmet</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id, consequuntur! Distinctio tempore vero ullam tenetur?</p>
+         </div>
+
+         <div class="service">
+            <div class="icon"><img src="img/icon/helmet.png" alt="" srcset=""></div>
+            <h3>Detailing The Helmet</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id, consequuntur! Distinctio tempore vero ullam tenetur?</p>
+         </div>
+      </section>
+
+      <section class="gallery">
+         <h2>Gallery</h2>
+         <img src="img/arai-example.jpg" alt="">
+         <img src="img/arai-example 2.jpg" alt="">
+         <img src="img/arai-example 3.jpg" alt="">
+         <img src="img/arai-example 4.jpg" alt="">
+      </section>
    </div>
+   <script>
+      const menuToggle = document.querySelector('.menu-toggle input') ;
+const nav = document.querySelector('nav ul');
+
+menuToggle.addEventListener('click', function ()  {
+   nav.classList.toggle('slide');
+});
+   </script>
 </body>
 </html>
