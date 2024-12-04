@@ -31,7 +31,7 @@ body {
 .hero {
    grid-area: hero;
    min-height: 350px;
-   background-image: url(img/KYT\ TT-COURSE\ XAVIER\ SIMEON\ all.jpg);
+   background-image: url(../img/T7243040002/KYT\ TT-COURSE\ XAVIER\ SIMEON\ all.jpg);
    background-size: cover;
    background-position: center;
    padding: 50px;
@@ -56,7 +56,7 @@ display: none;
 
 .feature-1 {
    grid-area: feature-1;
-   background-image: url(img/Weistbag.jpg);
+   background-image: url(../img/T7243040002/Weistbag.jpg);
    background-size: cover;
    margin: 2px;
    box-shadow: 0 4px 10px #000 ;
@@ -68,7 +68,7 @@ display: none;
 
 .feature-2 {
    grid-area: feature-2;
-   background-image: url(img/Hoodie.jpg);
+   background-image: url(../img/T7243040002/Hoodie.jpg);
    background-size: cover;
    margin: 2px;
    box-shadow: 0 4px 10px #000;
