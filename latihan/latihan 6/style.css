@@ -144,7 +144,11 @@ nav ul li a:hover {
       background-color: blueviolet;
       transform: translateX(100%);
       transition: all 1s;
-   }
+      -webkit-transform: translateX(100%);
+      -moz-transform: translateX(100%);
+      -ms-transform: translateX(100%);
+      -o-transform: translateX(100%);
+}
 
    nav ul.slide {
       transform: translateX(0);
